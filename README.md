@@ -1,16 +1,31 @@
-# scalers_job_portal
-
-A new Flutter project.
+# Scalers Job Portal
+A Job Portal App for Scalers.
 
 ## Getting Started
+To run this app locally, ensure all required dependencies are installed.
 
-This project is a starting point for a Flutter application.
+Steps:  
+Navigate to the project directory in your terminal.  
+Run the following command to install dependencies:  
+```flutter pub get```  
 
-A few resources to get you started if this is your first Flutter project:
+## Dependencies:
+1- flutter_bloc: ^8.1.6  
+2- http: ^1.2.2  
+3- cached_network_image: ^3.4.0  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Dev Dependencies:
+2- mocktail: ^1.0.4   // This package is used to create mocks for testing  
+3- bloc_test: ^9.0.3  // A Dart package that makes testing blocs and cubits easy.  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Widget Testing:
+Project has 3 widget tests. Each test can be run by following command:  
+
+```flutter test test/home_page_widget_test.dart```  
+
+```flutter test test/jobs_detail_page_widget_test.dart```  
+
+```flutter test test/jobs_page_widget_test.dart```  
+
+Demo video: 
+https://drive.google.com/file/d/1qEVWrCdJ7JfuWm6wybta6TcPbDTuUqlA/view?usp=sharing
