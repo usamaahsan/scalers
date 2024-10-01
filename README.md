@@ -15,8 +15,8 @@ Run the following command to install dependencies:
 3- cached_network_image: ^3.4.0  
 
 ## Dev Dependencies:
-2- mocktail: ^1.0.4   // This package is used to create mocks for testing  
-3- bloc_test: ^9.0.3  // A Dart package that makes testing blocs and cubits easy.  
+1- mocktail: ^1.0.4   // This package is used to create mocks for testing  
+2- bloc_test: ^9.0.3  // A Dart package that makes testing blocs and cubits easy.  
 
 ## Widget Testing:
 Project has 3 widget tests. Each test can be run by following command:  
